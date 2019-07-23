@@ -6,7 +6,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
-from main.utils import generate_unique_email
+from utils import generate_unique_email
 
 
 class Test:
@@ -16,7 +16,7 @@ class Test:
     random_email = None
     test_password = 'TeStPa4SsWord@'
     google_email = 'lapdedkhost@gmail.com'
-    google_password = 'YOUR_PASSWORD'
+    google_password = 'n4won6qj'
 
     success_text = 'Your account has been successfully created'
     sign_in_google_text = 'Sign up with Google'
